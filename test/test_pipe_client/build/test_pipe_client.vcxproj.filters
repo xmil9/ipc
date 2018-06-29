@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="project">
+      <UniqueIdentifier>{e9716007-541e-46bc-bbd4-659973ef180c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\targetver.h">
+      <Filter>project</Filter>
+    </ClInclude>
+    <ClInclude Include="..\win.h">
+      <Filter>project</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test_pipe.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\test_pipe_client.cpp" />
+  </ItemGroup>
+</Project>
